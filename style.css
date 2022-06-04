@@ -1,0 +1,243 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+    
+}
+body{
+    background: #efefef;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #1876f2;
+   padding:5px 5%;
+   position: sticky;
+   top: 0;
+   z-index: 100 ;
+}
+.logo{
+    color: white;
+    font-weight: 20px;
+    width: 160px;
+  padding: 15px ;
+  
+}
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+.nav-left ul li{
+    list-style:none;
+    display: inline-block;
+}
+.nav-left ul li i{
+    width: 28px;
+    margin: 0 15px;
+    color: white;
+    font-weight: 20px;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+}
+.nav-user-icon img{
+    width: 40px;
+    border-radius: 50%;
+
+}
+.nav-user-icon{
+    margin-left: 30px; 
+}
+.search-box{
+    background: #efefef;
+    width: 350px;
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+    padding: 0 15px;    
+}
+.search-box i{
+    width: 18px;
+}
+.search-box input{
+    width: 100%;
+    background: transparent;
+    padding: 10px ;
+    outline: none;
+    border: 0;
+}
+.online{
+    position: relative;
+
+}
+.online::after{
+    content: '';
+    width: 3px;
+    height: 3px;
+    border: 2px solid #fff;
+    background:#41db51 ;
+    border-radius: 50%;
+    top: 0;
+    right:0;
+    position: absolute;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 5%;
+}
+
+.left-sidebar{
+    
+    flex-basis: 25%;
+    position: sticky;
+    top:70px;
+    align-self: flex-start;
+   
+}
+.right-sidebar{
+    
+    flex-basis: 25%;
+    position: sticky;
+    top:70px;
+    align-self: flex-start;
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    color: #626262;
+    
+}
+.main-content{
+    flex-basis: 47%;
+    height: 100vh;
+}
+.imp-links a{
+   text-decoration: none; 
+   display: flex;
+   align-items: center;
+   margin-bottom: 30px;
+   color: #626262;
+   width: fit-content;
+padding:0 15px;
+
+}
+.imp-links i{
+    color: blue;
+    margin-right: 10px;
+    width: 25px;
+}
+.imp-links a:last-child{
+    color:#1876f2 ;
+}
+.imp-links{
+    border-bottom: 1px solid #ccc ;
+}
+.shortcurt a{
+    text-decoration: none; 
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    color: #626262;
+    width: fit-content;
+ padding:0 15px;
+ 
+ }
+ .shortcurt a img{
+     width: 50px;
+     border-radius: 4px;
+     margin-right: 15px ;
+ }
+ .shortcurt p{
+     margin: 25px 0;
+     font-size: 16px;
+     color: #626262;
+     font-weight: 500;
+ }
+ .sidebar-title{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin-bottom: 18px;
+
+
+ }
+ .sidebar-title h4{
+     font-weight:600 ;
+     font-size: 16px;
+
+
+ }
+ .sidebar-title a{
+     text-decoration: none;
+     color: #1876f2;
+     font-size: 15px;
+
+ }
+ .event{
+     display: flex;
+     font-size: 14px;
+     margin-bottom: 20px;
+
+ }
+ .left-event{
+     border-radius: 10px;
+     height: 65px;
+     width: 65px;
+     margin-right:15px ;
+     margin-top:5 px;
+     text-align: center;
+     position: relative;
+     overflow: hidden;
+     box-shadow: 0 0 10px  rgba(0, 0, 0,0.1);
+ }
+.event p{
+    font-size: 12px;
+
+}
+.event a{
+    text-decoration: none;
+    text-decoration: none;
+    color: #1876f2;
+
+}
+.left-event span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #1876f2;
+    color: #fff;
+    font-size: 10px;
+    padding: 4px 0;
+}
+.sidebar-ads{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+.online-list{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.online-list .online img{
+    width: 40px;
+    border-radius: 50%;
+
+}
+.online-list .online{
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 15px;
+
+}
+.online-list .online::after{
+    top: unset;
+    bottom: 5px;
+}
